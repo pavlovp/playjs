@@ -1,0 +1,3 @@
+npm install typescript -g
+npm install http-sever -g
+http server . -a localhost -p 8080

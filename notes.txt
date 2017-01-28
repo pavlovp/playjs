@@ -1,0 +1,8 @@
+npm install typescript -g
+npm install http-sever -g
+http server . -a localhost -p 8080
+
+npm install gulp-cli -g
+npm install gulp -D
+
+npm install --save-dev gulp-webserver
