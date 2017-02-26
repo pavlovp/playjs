@@ -19,8 +19,31 @@
             "type": "node",
             "request": "launch",
             "name": "Node",
-            "program": "${workspaceRoot}\\scripts\\main.js",
+            "program": "${workspaceRoot}\\scripts\\ts\\Main.ts",
+            "outFiles": [
+            "${workspaceRoot}\\scripts\\built\\tsc.js"],
+            "sourceMaps": true,
             "cwd": "${workspaceRoot}"
+        },
+        {
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "NODE_ENV": "development"
+            },
+            //"externalConsole": false,
+            "name": "TypeScriptNode",
+            "outFiles": ["${workspaceRoot}\\scripts\\built\\tsc.js"],
+            // "preLaunchTask": "default",
+            "program": "${workspaceRoot}\\scripts\\ts\\Main.ts",
+            "request": "launch",
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "runtimeExecutable": null,
+            "sourceMaps": true,
+            "stopOnEntry": false,
+            "type": "node"
         }
     ]
 }

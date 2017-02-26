@@ -17,10 +17,15 @@
   },
   "homepage": "https://github.com/pavlovp/playjs#readme",
   "dependencies": {
+<<<<<<< HEAD
     "requirejs": "^2.3.2"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-webserver": "^0.9.1"
+=======
+    "jquery": "^3.1.1",
+    "requirejs": "^2.3.2"
+>>>>>>> d1568da145a24457af580e104cd1352ed328b49a
   }
 }

@@ -6,3 +6,27 @@ npm install gulp-cli -g
 npm install gulp -D
 
 npm install --save-dev gulp-webserver
+npm install --save-dev typescript gulp gulp-typescript
+
+
+Go to Symbol
+You can navigate symbols inside a file with Ctrl+Shift+O
+
+
+Ctrl+PageDown go to the right editor.
+Ctrl+PageUp go to the left editor.
+Ctrl+Tab open the next editor in the editor group MRU list.
+Ctrl+Shift+Tab open the previous editor in the editor group MRU list.
+Ctrl+1 go to the leftmost editor group.
+
+
+errors Ctrl+Shift+M.
+output Ctrl+Shift+U
+
+Ctrl+Shift+O: lists all defined symbols of the current open TypeScript and lets you navigate in it.
+Ctrl+T: lets you search all symbols defined in the current project or file scope. You need to have a TypeScript file open in the active editor.
+
+Format Code
+Shift+Alt+F: formats the whole document. Ctrl+K Ctrl+F: formats the currently selected source code.
+
+VS Code offers JSDoc support for TypeScript. Besides syntax coloring, we help you enter JSDoc comments. Simply type /** and it will auto insert the closing */. Pressing Enter inside a JSDoc block will indent the next line and auto insert a *.
